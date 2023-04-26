@@ -1,0 +1,86 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generics */
+body{
+
+}
+
+header{
+    background-color: var(--Header-background);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#navigation-menu {
+    background-color: var(--Nav-bar);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px ;
+}
+.logo{
+    border: dashed black;
+    width: 200px;
+    padding:  10px 10px;
+    height: 50px;
+}
+.link{
+    border: dashed black;
+    width: 500px;
+    padding:  10px 10px;
+}
+.login{
+    border: dashed black;
+    width: 200px;
+    padding:  10px 10px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: var(--footer);
+    height: 400px;
+}
+
+
+/* Utils*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+/* Colors*/
+:root {
+ --Header-background: #add8e6 ;
+ --Nav-bar: #daa521;
+ --Header-content: #00008b;
+ --header-image:#ee81ee;
+ --large-column: #1d90ff ;
+ --small-column: #ffbfcb ;
+ --main-section3: #d3d3d3 ;
+ --main-section5: #d3d3d3 ;
+ --footer: #23272a ;
+ --footer-med-column: #f08080 ;
+ --footer-small-column: #20b2aa ;
+}
