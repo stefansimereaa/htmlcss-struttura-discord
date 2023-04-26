@@ -99,9 +99,6 @@ header{
     height: 350px;
 }
 
-
-
-
 /* Section5 */
 
 .section5{
@@ -123,9 +120,64 @@ header{
 
 footer{
     background-color: var(--footer);
-    height: 400px;
+    height: 0 auto;
+}
+.main-content-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.footer-med-content{
+    background-color: var(--footer-med-content);
+    height: 350px;
+    width: 300px;
+    border: dashed black;
+}
+.footer-small-content{
+    background-color: var(--footer-small-content);
+    height: 350px;
+    width: 100px;
+    border: dashed white;
+}
+.line-footer{
+    background-color: white;
+    height: 2px;
 }
 
+
+.last-content-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.content{
+    width: 700px;
+    background-color: var(--content);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo-footer{
+    border: dashed black;
+    background-color: var(--footer-med-content);
+    width: 100px;
+    height: 30px;
+    padding: 0 10px;
+}
+.button-footer{
+    border: dashed black;
+    background-color: var(--footer-med-content);
+    width: 100px;
+    height: 30px;
+    padding: 0 10px;
+}
 
 /* Utils*/
 .container{
@@ -136,10 +188,6 @@ footer{
     display: flex;
     flex-direction: row;
 }
-
-
-
-
 
 
 /* Colors*/
@@ -155,4 +203,5 @@ footer{
  --footer: #23272a ;
  --footer-med-content: #f08080 ;
  --footer-small-content: #20b2aa ;
+ --content: #7fffd4;
 }
