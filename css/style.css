@@ -16,7 +16,7 @@ header{
     height: 100px;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
 }
 #navigation-menu {
     background-color: var(--Nav-bar);
@@ -43,11 +43,83 @@ header{
     padding:  10px 10px;
 }
 
+/* Section1 */
+.section1{
+    background-color: var(--section1) ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-img{
+    background-color: var(--section1-img);
+    height: 150px;
+    width: 700px;
+    padding: 30px 0px;
+    border: dashed black;
+}
+
+
+/* Section2 */
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.right-content{
+    background-color: var(--large-content);
+    height: 300px;
+    width: 400px;
+    border: dashed black;
+}
+.left-content{
+    background-color: var(--small-content);
+    height: 300px;
+    width: 300px;
+    border: dashed black;
+}
+/* Section3 */
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: var(--main-section3);
+}
+
+
+/* Section4 */
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
 
 
 
 
+/* Section5 */
 
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: var(--main-section3);
+}
+.big-background{
+    background-color: green;
+    height: 450px;
+    width: 700px;
+    border: dashed black;
+}
+
+
+/* Foooter */
 
 footer{
     background-color: var(--footer);
@@ -74,13 +146,13 @@ footer{
 :root {
  --Header-background: #add8e6 ;
  --Nav-bar: #daa521;
- --Header-content: #00008b;
- --header-image:#ee81ee;
- --large-column: #1d90ff ;
- --small-column: #ffbfcb ;
+ --section1: #00008b;
+ --section1-img:#ee81ee;
+ --large-content: #1d90ff ;
+ --small-content: #ffbfcb ;
  --main-section3: #d3d3d3 ;
  --main-section5: #d3d3d3 ;
  --footer: #23272a ;
- --footer-med-column: #f08080 ;
- --footer-small-column: #20b2aa ;
+ --footer-med-content: #f08080 ;
+ --footer-small-content: #20b2aa ;
 }
