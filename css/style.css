@@ -51,11 +51,13 @@ header{
     border: dashed black;
     width: 500px;
     padding:  10px 10px;
+    text-align: center;
 }
 .login{
     border: dashed black;
     width: 200px;
     padding:  10px 10px;
+    text-align: right;
 }
 
 /* Section1 */
